@@ -1,4 +1,4 @@
-# Christmas Pass the Parcel
+# 🎄🎁 Christmas Pass the Parcel
 
 __See demo page: [https://corenominal.github.io/christmas-pass-the-parcel/](https://corenominal.github.io/christmas-pass-the-parcel/)__
 
