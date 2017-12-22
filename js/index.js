@@ -3,8 +3,7 @@ $(document).on('ready',function()
 	// The music audio track
 	var song = new Howl(
 	{
-		urls: ['./sfx/LetItSnow_PeterLemongello.mp3', './sfx/LetItSnow_PeterLemongello.ogg'],
-		loop: true
+		urls: ['./sfx/LetItSnow_PeterLemongello.mp3', './sfx/LetItSnow_PeterLemongello.ogg']
 	});
 
 	// The "Stop!" audio track, provided by the fine folks of Lincoln LUG
