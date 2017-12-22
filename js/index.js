@@ -3,7 +3,8 @@ $(document).on('ready',function()
 	// The music audio track
 	var song = new Howl(
 	{
-		urls: ['./sfx/LetItSnow_PeterLemongello.mp3', './sfx/LetItSnow_PeterLemongello.ogg']
+		urls: ['./sfx/LetItSnow_PeterLemongello.mp3', './sfx/LetItSnow_PeterLemongello.ogg'],
+		loop: true
 	});
 
 	// The "Stop!" audio track, provided by the fine folks of Lincoln LUG
@@ -15,9 +16,6 @@ $(document).on('ready',function()
 	// The main function
 	function pass_the_parcel()
 	{
-		// 1. Start playing the song
-		song.play();
-
 		// Notify the user to start/keep passing the parcel
 		$( '#notify' ).attr( 'class', 'animated tada infinite' );
 		$( '#notify' ).html( '<h1>Go go go! Pass the parcel!</h1>' );
@@ -41,6 +39,7 @@ $(document).on('ready',function()
 	// Butten click event - start/continue playing
 	$('#pass_the_parcel').on( 'click', function()
 	{
+		song.play(); // Start playing the song
 		pass_the_parcel(); // Call the main function
 		$( '#pass_the_parcel' ).attr( 'class', 'animated rollOut' ); // Animate and hide the button
 	});
