@@ -1,5 +1,7 @@
 # 🎄🎁 Christmas Pass the Parcel
 
+![Screenshot of Christmas Pass the Parcel](https://assets.corenominal.com/img/christmas-pass-the-parcel.png)
+
 __See demo page: [https://corenominal.github.io/christmas-pass-the-parcel/](https://corenominal.github.io/christmas-pass-the-parcel/)__
 
 A little web app that I wrote at [Lincoln LUG](https://lincolnlug.org.uk) to help ensure that our game of [Pass the Parcel](https://en.wikipedia.org/wiki/Hot_potato_(game)#Pass_the_parcel) was fair and above board.
