@@ -1,6 +1,6 @@
 # 🎄🎁 Christmas Pass the Parcel
 
-![Screenshot of Christmas Pass the Parcel](https://assets.corenominal.com/img/christmas-pass-the-parcel.png)
+![Screenshot of Christmas Pass the Parcel](https://philipnewborough.co.uk/assets/img/shared/christmas-pass-the-parcel.png)
 
 __See demo page: [https://corenominal.github.io/christmas-pass-the-parcel/](https://corenominal.github.io/christmas-pass-the-parcel/)__
 
